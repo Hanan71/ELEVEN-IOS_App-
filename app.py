@@ -4,10 +4,10 @@ import numpy as np
 
 app = Flask(__name__)
 
-# تحميل المودل
+
 model = pickle.load(open("model.pkl", "rb"))
 
-# تحويل الرقم إلى مستوى خطر
+# number to risk kind
 def map_prediction(pred):
     return ["low", "medium", "high"][pred]
 
@@ -19,9 +19,9 @@ def home():
 def predict():
     data = request.json
 
-    # بيانات المودل
+    # model info
     age = int(data["age"])
-    gender = int(data["gender"])  # 0 أو 1
+    gender = int(data["gender"])  # 0 or 1
     screen_time = float(data["screen_time"])
 
     features = np.array([[age, gender, screen_time]])
@@ -30,7 +30,7 @@ def predict():
     prediction = model.predict(features)[0]
     risk = map_prediction(prediction)
 
-    # 👇 تجهيز البيانات للـ AI (بدون اسم)
+    #  AI ( no name)
     response_data = {
         "risk": risk,
         "age": age,
