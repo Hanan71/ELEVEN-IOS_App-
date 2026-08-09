@@ -4,11 +4,13 @@ import numpy as np
 import os
 import google.generativeai as genai
 
-#  API Key
+# API Key
 os.environ["API_KEY"] = "AQ.Ab8RN6KfkKCZQ_hzaKuE25BapYsbaiFVVI0oc62cX3tmp1zJlg"
 
 genai.configure(api_key=os.getenv("API_KEY"))
-model_ai = genai.GenerativeModel("gemini-pro")
+
+# ⚠️ التعديل الأساسي هنا: تغيير الموديل إلى gemini-1.5-flash
+model_ai = genai.GenerativeModel("gemini-1.5-flash")
 
 app = Flask(__name__)
 
@@ -18,7 +20,7 @@ model = pickle.load(open("model.pkl", "rb"))
 def map_prediction(pred):
     return ["low", "medium", "high"][pred]
 
-#  build prompt 
+# build prompt 
 def build_prompt(data):
     return f"""
 You are a parenting expert specializing in reducing children's screen addiction.
@@ -47,15 +49,20 @@ Rules:
 
 # 🔥 AI call
 def call_ai(prompt):
-    response = model_ai.generate_content(
-        prompt,
-        generation_config={
-            "max_output_tokens": 80,
-            "temperature": 0.5
-        }
-    )
-
-    return response.text.split("\n")[:4]  # shorten
+    try:
+        response = model_ai.generate_content(
+            prompt,
+            generation_config={
+                "max_output_tokens": 250, # تم زيادة التوكينز لتكفي الخطة كاملة
+                "temperature": 0.5
+            }
+        )
+        # تقسيم النصوص وتنظيف السطور الفارغة
+        lines = [line.strip() for line in response.text.split("\n") if line.strip()]
+        return lines
+    except Exception as e:
+        print("Gemini Error:", e)
+        return ["Set clear daily screen limits.", "Encourage outdoor activities.", "Engage child with hands-on hobbies."]
 
 @app.route("/")
 def home():
