@@ -31,7 +31,28 @@ Developed as part of the **Apple Developer Academy @ Tuwaiq Foundation Program**
 
 ---
 
+
+## 📱 Key Pages
+
+| Onboarding & Tasks | Task Details | Rewards Shop | AI Recommendation |
+| :---: | :---: | :---: | :---: |
+| <img src="./page1.png" width="220" /> | <img src="./page2.png" width="220" /> | <img src="./page3.png" width="220" /> | <img src="./page4.png" width="220" /> |
+
+
+---
+
+## 📱 Key Pages
+
+| Onboarding & Tasks | Task Details | Rewards Shop | AI Recommendation |
+| :---: | :---: | :---: | :---: |
+| <img src="./page1.png" width="220" /> | <img src="./page2.png" width="220" /> | <img src="./page3.png" width="220" /> | <img src="./page4.png" width="220" /> |
+
+---
+
+## 📊 Presentation
+[![Presentation](https://img.shields.io/badge/Canva-Presentation-FF6C37?style=for-the-badge&logo=canva&logoColor=white)](https://canva.link/hmdw6cfs6xgphpm) 👈
+
+---
+
 ## 👥 Team
 Designed and engineered by **Team 11** at the **Apple Developer Academy @ Tuwaiq**.
-
-[![Presentation](https://img.shields.io/badge/Canva-Presentation-FF6C37?style=for-the-badge&logo=canva&logoColor=white)](https://canva.link/hmdw6cfs6xgphpm) 👈
