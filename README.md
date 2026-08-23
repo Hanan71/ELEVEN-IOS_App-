@@ -2,7 +2,11 @@
 
 An engaging iOS task management and positive reinforcement application designed for children and parents, featuring gamified rewards, Siri integration, smart notifications, and AI-powered recommendations.
 
-Developed as part of the **Apple Developer Academy @ Tuwaiq Foundation Program** (Team 11).
+
+---
+
+## 👥 Team
+Designed and engineered by **Team 11** at the **Apple Developer Academy @ Tuwaiq**.
 
 ---
 
@@ -42,7 +46,3 @@ Developed as part of the **Apple Developer Academy @ Tuwaiq Foundation Program**
 ## 📊 Presentation
 [![Presentation](https://img.shields.io/badge/Canva-Presentation-FF6C37?style=for-the-badge&logo=canva&logoColor=white)](https://canva.link/hmdw6cfs6xgphpm) 👈
 
----
-
-## 👥 Team
-Designed and engineered by **Team 11** at the **Apple Developer Academy @ Tuwaiq**.
