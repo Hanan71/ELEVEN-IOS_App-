@@ -31,21 +31,11 @@ Developed as part of the **Apple Developer Academy @ Tuwaiq Foundation Program**
 
 ---
 
-
 ## 📱 Key Pages
 
-| Onboarding & Tasks | Task Details | Rewards Shop | AI Recommendation |
-| :---: | :---: | :---: | :---: |
-| <img src="./page1.png" width="220" /> | <img src="./page2.png" width="220" /> | <img src="./page3.png" width="220" /> | <img src="./page4.png" width="220" /> |
-
-
----
-
-## 📱 Key Pages
-
-| Onboarding & Tasks | Task Details | Rewards Shop | AI Recommendation |
-| :---: | :---: | :---: | :---: |
-| <img src="./page1.png" width="220" /> | <img src="./page2.png" width="220" /> | <img src="./page3.png" width="220" /> | <img src="./page4.png" width="220" /> |
+<p align="center">
+  <img width="1392" alt="pages" src="https://github.com/user-attachments/assets/1639ea24-f158-4cd5-924f-128d4ee98e4c" />
+</p>
 
 ---
 
