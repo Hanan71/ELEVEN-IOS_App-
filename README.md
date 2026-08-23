@@ -33,3 +33,5 @@ Developed as part of the **Apple Developer Academy @ Tuwaiq Foundation Program**
 
 ## 👥 Team
 Designed and engineered by **Team 11** at the **Apple Developer Academy @ Tuwaiq**.
+
+👈 [![Canva Presentation](https://img.shields.io/badge/Canva-Pitch%20Deck-FF6C37?style=for-the-badge&logo=canva&logoColor=white)](https://canva.link/hmdw6cfs6xgphpm)
